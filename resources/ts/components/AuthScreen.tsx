@@ -46,7 +46,13 @@ export default function AuthScreen({ onLogin }: Props) {
             <div className="w-full max-w-md">
                 {/* Logo */}
                 <div className="text-center mb-8">
-                    <h1 className="text-3xl font-bold text-slate-800">🗂 SuperTask</h1>
+                    <h1 className="text-3xl font-bold text-slate-800 flex items-center justify-center gap-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 text-indigo-600" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M19 20H5a2 2 0 01-2-2V9a2 2 0 012-2h3.586a1 1 0 01.707.293l1.414 1.414A1 1 0 0011.414 9H19a2 2 0 012 2v7a2 2 0 01-2 2z" />
+                            <path opacity="0.4" d="M3 9V7a2 2 0 012-2h3.586a1 1 0 01.707.293L10.707 6.7A1 1 0 0011.414 7H19a2 2 0 012 2" />
+                        </svg>
+                        SuperTask
+                    </h1>
                     <p className="mt-2 text-slate-500 text-sm">
                         {mode === 'login' ? 'Sign in to your account' : 'Create a new account'}
                     </p>

@@ -2,9 +2,8 @@
 
 use Illuminate\Support\Facades\Route;
 
-Route::get('/', function () {
-    return view('welcome');
-});
+// Redirect root to the SPA
+Route::get('/', fn () => redirect('/app'));
 
 // SPA shell — serves the React app for /app and any sub-path
 // (catch-all ensures deep links work if React Router is added later)

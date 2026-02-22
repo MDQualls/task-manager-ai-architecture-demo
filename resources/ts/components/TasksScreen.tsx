@@ -147,7 +147,13 @@ export default function TasksScreen({ onLogout }: Props) {
         <div className="min-h-screen bg-slate-50">
             <header className="sticky top-0 z-10 bg-white border-b border-slate-200">
                 <div className="mx-auto max-w-5xl px-4 py-3 flex items-center justify-between">
-                    <span className="text-lg font-bold text-slate-800">🗂 SuperTask</span>
+                    <span className="text-lg font-bold text-slate-800 flex items-center gap-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-indigo-600" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M19 20H5a2 2 0 01-2-2V9a2 2 0 012-2h3.586a1 1 0 01.707.293l1.414 1.414A1 1 0 0011.414 9H19a2 2 0 012 2v7a2 2 0 01-2 2z" />
+                            <path opacity="0.4" d="M3 9V7a2 2 0 012-2h3.586a1 1 0 01.707.293L10.707 6.7A1 1 0 0011.414 7H19a2 2 0 012 2" />
+                        </svg>
+                        SuperTask
+                    </span>
                     <button
                         onClick={handleLogout}
                         className="rounded-lg border border-slate-200 px-4 py-1.5 text-sm font-medium text-slate-600 hover:bg-slate-50 transition"
