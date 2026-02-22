@@ -45,7 +45,11 @@
       "Bash(/tmp/write_ts_screen.mjs:*)",
       "Bash(echo:*)",
       "Bash(# Test::*)",
-      "Bash(# Now append the L\\(\\) lines. We use double-quotes for the outer JS string:*)"
+      "Bash(# Now append the L\\(\\) lines. We use double-quotes for the outer JS string:*)",
+      "Bash(wsl -d Ubuntu ls:*)",
+      "Bash(wsl -d Ubuntu -- ls:*)",
+      "Bash(dir \"C:\\\\DevRoot\\\\projects\\\\laravel\\\\super-task\\\\storage\\\\framework\\\\views\"\")",
+      "Bash(# Check Vite and Tailwind cache directories ls \"\"C:/DevRoot/projects/laravel/super-task/node_modules/.vite/\"\")"
     ]
   }
 }
