@@ -1,4 +1,4 @@
-# AI-Assisted Task Manager API + React UI
+# AI-Assisted Task Manager API + React UI Demo
 
 ## Summary
 
